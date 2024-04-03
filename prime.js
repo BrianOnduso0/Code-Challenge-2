@@ -20,3 +20,4 @@ function filterAndDisplayPrimes() {
     const primeNumbers = filterPrimes(inputArray);
     document.getElementById('result').textContent = "Filtered Primes: " + primeNumbers.join(', ');
 }
+
